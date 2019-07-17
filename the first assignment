@@ -1,0 +1,58 @@
+> data1 <- subset(data, BusinessYear=="2014" & StateCode=="AK" & IndividualRate<2000)
+> avg <- mean(data1$IndividualRate)
+> print(avg)
+[1] 589.2519
+> data2 <- subset(data, BusinessYear=="2014" & StateCode=="AL" & IndividualRate<2000)
+> avg2 <- mean(data2$IndividualRate)
+> print(avg2)
+[1] 292.3891
+>  data3 <- subset(data, BusinessYear=="2014" & StateCode=="AZ" & IndividualRate<2000)
+> avg3 <- mean(data3$IndividualRate)
+> print(avg3)
+[1] 350.4309
+> data4 <- subset(data, BusinessYear=="2014" & StateCode=="FL" & IndividualRate<2000)
+> avg4 <- mean(data4$IndividualRate)
+> print(avg4)
+[1] 218.4453
+> data5 <- subset(data, BusinessYear=="2014" & StateCode=="GA" & IndividualRate<2000)
+> avg5 <- mean(data5$IndividualRate)
+> print(avg5)
+[1] 232.0296
+> data6 <- subset(data, BusinessYear=="2014" & StateCode=="IN" & IndividualRate<2000)
+> avg5 <- mean(data5$IndividualRate)
+> print(avg5)
+[1] 232.0296
+> data6 <- subset(data, BusinessYear=="2014" & StateCode=="IN" & IndividualRate<2000)
+> avg6 <- mean(data6$IndividualRate)
+> print(avg6)
+[1] 360.3516
+> mid1 <- median(data1$IndividualRate)
+> print(mid1)
+[1] 550
+> mid2 <- median(data2$IndividualRate)
+> print(mid2)
+[1] 271.235
+> mid3 <- median(data3$IndividualRate)
+> print(mid3)
+[1] 305.84
+> mid4 <- median(data4$IndividualRate)
+> print(mid4)
+[1] 49.34
+> mid5 <- median(data5$IndividualRate)
+> print(mid5)
+[1] 39.03
+> mid6 <- median(data6$IndividualRate)
+> print(mid6)
+[1] 345.945
+> print(nrow(data1))
+[1] 10266
+> print(nrow(data2))
+[1] 75418
+> print(nrow(data3))
+[1] 142665
+> print(nrow(data4))
+[1] 599132
+> print(nrow(data5))
+[1] 110646
+> print(nrow(data6))
+[1] 99648
